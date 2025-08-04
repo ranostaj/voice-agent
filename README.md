@@ -4,7 +4,7 @@ A real-time voice communication application built with React and TypeScript that
 
 ## Application Summary
 
-Voice Agent is a modern web application that provides a voice interaction interface. Users can record audio messages, send them to a WebSocket server, and receive audio responses in real-time. The application features a clean, responsive UI with modal-based voice interaction and comprehensive audio management capabilities.
+Voice Agent is a modern web application that provides a voice interaction interface. Users can record audio messages, send them to a WebSocket server, and receive audio responses in real-time. The application features a clean, responsive UI with modal-based voice interaction.
 
 ## Architecture
 
@@ -92,7 +92,6 @@ The `VoiceAgent` component demonstrates WebSocket integration:
 
 ### Prerequisites
 - Node.js (version 16 or higher)
-- npm or yarn package manager
 - A WebSocket server running on `ws://localhost:8080` (for full functionality)
  
 
@@ -107,7 +106,6 @@ The application will be available at `http://localhost:5173` (or the next availa
 ## Features Implemented
 
 
-- **Real-time Audio Recording**: High-quality voice recording using `react-audio-voice-recorder`
 - **Audio Playback**: Smooth audio playback with waveform visualization using `wavesurfer.js`
 - **Recording Controls**: Start, stop, pause, and delete recording functionality
 - **Audio Validation**: Ensures only valid audio data is processed and sent
@@ -134,4 +132,3 @@ The application will be available at `http://localhost:5173` (or the next availa
 - **Data Privacy Controls**: User consent and data deletion options
 - **Audit Logging**: Track system usage and security events
 - **Keyboard Shortcuts**: Hotkeys for common actions
- 
