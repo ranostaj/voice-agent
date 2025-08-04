@@ -1,0 +1,25 @@
+@import "tailwindcss";
+:root {
+  color-scheme: light dark;
+}
+
+@theme {
+  --color-primary: rgba(79, 22, 80, 1);
+  --color-primary-80: rgba(139, 38, 141, 1);
+  --color-primary-60: rgba(209, 87, 211, 1);
+  --color-primary-40: rgba(221, 134, 223, 1);
+  --color-primary-20: rgba(237, 192, 238, 1);
+  --color-primary-10: rgba(244, 214, 245, 1);
+  --color-primary-5: rgba(249, 235, 250, 1);
+
+  --color-common: rgba(31, 27, 32, 1);
+  --color-common-80: rgba(52, 46, 52, 1);
+  --color-common-60: rgba(31, 27, 32, 0.6);
+  --color-common-40: rgba(31, 27, 32, 0.4);
+  --color-common-20: rgba(184, 179, 184, 1)
+}
+
+  body {
+    background-color: var(--color-primary-5);
+    color: var(--color-primary);
+  }
